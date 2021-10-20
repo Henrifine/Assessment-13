@@ -308,6 +308,10 @@ body{
   color: white !important;
 }
 
+.footerhead a{
+  color: white;
+}
+
 .footertail{
   margin-top: 10px;
 }
