@@ -4,6 +4,11 @@
   background-color: #243142;
 }
 
+.chocc{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 .product{
   margin: 20px;
   display: flex;
@@ -11,13 +16,8 @@
   justify-content: center;
 }
 
-.productgrid{
-  display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
-}
-
 .productImg{
-  height: 350px;
+  margin: 25px;
   display: flex;
   align-items: center;
   justify-content: center;

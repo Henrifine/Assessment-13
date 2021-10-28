@@ -1,0 +1,57 @@
+@import url(style.css);
+
+#forum{
+  margin: 20px 15%;
+  user-select: text;
+}
+
+.header{
+  background-color: #243142;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  border-radius: 5px 5px 0px 0px;
+}
+
+.img{
+  margin: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ol{
+  padding: 0 35px;
+  background-color: #eee;
+  border-radius: 0px 0px 5px 5px;
+}
+
+h4{
+  margin: 0px;
+  font-size: 16px;
+}
+
+h4:hover{
+  text-decoration: underline;
+}
+
+p{
+  margin: 5px 0;
+  padding-right: 10px;
+}
+
+.row{
+  padding: 5px 0;
+}
+
+.bottom{
+  display: flex;
+  color: grey;
+  font-size: 12px;
+}
+
+.bottom p:nth-child(2):hover{
+  text-decoration: underline;
+}
